@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DOM-less tests  should render correctly 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="header"
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Search documents..."
+      type="text"
+    />
+    <input
+      accept="image/jpeg, image/png"
+      hidden={true}
+      onChange={[Function]}
+      type="file"
+    />
+    <button
+      onClick={[Function]}
+    >
+      UPLOAD
+    </button>
+  </header>
+  <header
+    className="header"
+  >
+    <h1>
+      2
+       documents
+    </h1>
+    <span>
+      Total size: 
+      601kB
+    </span>
+  </header>
+  <section
+    className="documents"
+  >
+    <div
+      className="document"
+    >
+      <h3
+        className="name"
+      >
+        f1
+      </h3>
+      <section
+        className="info"
+      >
+        <span>
+          300kB
+        </span>
+        <button
+          onClick={[Function]}
+        >
+          delete
+        </button>
+      </section>
+    </div>
+    <div
+      className="document"
+    >
+      <h3
+        className="name"
+      >
+        f2
+      </h3>
+      <section
+        className="info"
+      >
+        <span>
+          300kB
+        </span>
+        <button
+          onClick={[Function]}
+        >
+          delete
+        </button>
+      </section>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`DOM-less tests  should render correctly when there are no documents 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="header"
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Search documents..."
+      type="text"
+    />
+    <input
+      accept="image/jpeg, image/png"
+      hidden={true}
+      onChange={[Function]}
+      type="file"
+    />
+    <button
+      onClick={[Function]}
+    >
+      UPLOAD
+    </button>
+  </header>
+  <header
+    className="header"
+  >
+    <h1>
+      2
+       documents
+    </h1>
+    <span>
+      Total size: 
+      601kB
+    </span>
+  </header>
+  <section
+    className="documents"
+  >
+    <div
+      className="document"
+    >
+      <h3
+        className="name"
+      >
+        f1
+      </h3>
+      <section
+        className="info"
+      >
+        <span>
+          300kB
+        </span>
+        <button
+          onClick={[Function]}
+        >
+          delete
+        </button>
+      </section>
+    </div>
+    <div
+      className="document"
+    >
+      <h3
+        className="name"
+      >
+        f2
+      </h3>
+      <section
+        className="info"
+      >
+        <span>
+          300kB
+        </span>
+        <button
+          onClick={[Function]}
+        >
+          delete
+        </button>
+      </section>
+    </div>
+  </section>
+</div>
+`;

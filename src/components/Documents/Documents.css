@@ -1,0 +1,36 @@
+.documents {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -12px;
+}
+
+@media all and (max-width: 631px) {
+  .documents {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.document {
+  border: 1px solid black;
+  box-sizing: border-box;
+  flex-basis: 304px;
+  margin: 12px;
+  padding: 15px;
+}
+
+@media all and (max-width: 631px) {
+  .document {
+    flex-basis: 0;
+  }
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  text-align: left;
+  margin-bottom: 8px;
+}

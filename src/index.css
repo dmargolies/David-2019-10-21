@@ -5,9 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding-top: 15px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+h1, h2, h3 {
+  margin: 0;
+}
+
+button {
+  padding: 5px 20px;
+  background-color: #baceff;
+}
+
+button:focus {
+  outline: none;
 }

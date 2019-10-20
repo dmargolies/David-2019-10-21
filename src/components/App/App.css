@@ -1,0 +1,30 @@
+.App {
+  margin: 0 auto;
+  max-width: 960px;
+  text-align: center;
+}
+
+.header {
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.search {
+  border: 1px solid black;
+  height: 2em;
+  flex-basis: 390px;
+}
+
+@media all and (max-width: 375px) {
+  .header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search {
+    flex-basis: 0;
+  }
+}

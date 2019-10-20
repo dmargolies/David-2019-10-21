@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Document Management",
+  "name": "File upload and management application",
   "icons": [
     {
       "src": "favicon.ico",

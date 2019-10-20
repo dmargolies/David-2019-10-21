@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<section
+  className="documents"
+>
+  <div
+    className="document"
+  >
+    <h3
+      className="name"
+    >
+      mockFilename1
+    </h3>
+    <section
+      className="info"
+    >
+      <span>
+        0B
+      </span>
+      <button
+        onClick={[Function]}
+      >
+        delete
+      </button>
+    </section>
+  </div>
+  <div
+    className="document"
+  >
+    <h3
+      className="name"
+    >
+      mockFilename2
+    </h3>
+    <section
+      className="info"
+    >
+      <span>
+        0B
+      </span>
+      <button
+        onClick={[Function]}
+      >
+        delete
+      </button>
+    </section>
+  </div>
+</section>
+`;
